@@ -5,4 +5,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = nextConfig; // ✅ CommonJS (sirf .js file me use karo)
