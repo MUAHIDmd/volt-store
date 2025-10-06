@@ -1,5 +1,5 @@
 import gs_logo from "./gs_logo.jpg"
-import happy_store from "./happy_store.webp"
+import avrx_shop from "./avrx-shop.jpg"
 import upload_area from "./upload_area.svg"
 import hero_model_img from "./hero_model_img.png"
 import hero_product_img1 from "./hero_product_img1.png"
@@ -42,14 +42,14 @@ export const dummyRatingsData = [
 export const dummyStoreData = {
     id: "store_1",
     userId: "user_1",
-    name: "Happy Shop",
-    description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
-    username: "happyshop",
-    address: "3rd Floor, Happy Shop , New Building, 123 street , c sector , NY, US",
+    name: "Avrx Shop",
+    description: "At Avrx  Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
+    username: "avrxshopr",
+    address: "3rd Floor, Avrx  Shop , New Building, 123 street , c sector , NY, US",
     status: "approved",
     isActive: true,
-    logo: happy_store,
-    email: "happyshop@example.com",
+    logo: avrx_shop,
+    email: "avrxshop@example.com",
     contact: "+0 1234567890",
     createdAt: "2025-09-04T09:04:16.189Z",
     updatedAt: "2025-09-04T09:04:44.273Z",
@@ -344,14 +344,14 @@ export const storesDummyData = [
     {
         id: "cmemkqnzm000htat8u7n8cpte",
         userId: "user_31dQbH27HVtovbs13X2cmqefddM",
-        name: "Happy Shop",
-        description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
+        name: "Avrx Shop",
+        description: "At Avrx  Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
         username: "happyshop",
-        address: "3rd Floor, Happy Shop , New Building, 123 street , c sector , NY, US",
+        address: "3rd Floor, Avrx  Shop , New Building, 123 street , c sector , NY, US",
         status: "approved",
         isActive: true,
-        logo: happy_store,
-        email: "happyshop@example.com",
+        logo: avrx_shop,
+        email: "avrxshop@example.com",
         contact: "+0 123456789",
         createdAt: "2025-08-22T08:34:15.155Z",
         updatedAt: "2025-08-22T08:34:47.162Z",
