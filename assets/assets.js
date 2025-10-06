@@ -124,8 +124,8 @@ export const productDummyData = [
     },
     {
         id: "prod_5",
-        name: "Smart watch black",
-        description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: " BoAt Stone 352 Pro",
+        description: "It features a 14W boAt Signature Sound and a passive radiator for a powerful bass.The speaker has a cylindrical shape with a fabric-like exterior and includes RGB LEDs that add visual effects.",
         mrp: 49,
         price: 29,
         images: [product_img5],
