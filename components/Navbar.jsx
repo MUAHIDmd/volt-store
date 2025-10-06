@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <>
       {/* Top Navbar */}
-      <nav className="w-full shadow bg-[#021368] text-white">
+      <nav className="w-full shadow bg-blue-800 text-white">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
           
           {/* Left (Logo only) */}
           <Link href="/" className="text-2xl font-bold">
-            volt <span className="text-yellow-400">Store</span>
+            Volt <span className="text-yellow-400">Store</span>
           </Link>
 
           {/* Center Search (desktop only) */}
@@ -35,7 +35,7 @@ const Navbar = () => {
                 2
               </span>
             </Link>
-            <button className="flex items-center gap-1 bg-indigo-500 px-4 py-2 rounded-full hover:bg-indigo-600">
+            <button className="flex items-center gap-1 bg-yellow-400 px-4 py-2 rounded-full hover:bg-blue-900">
               <User size={18} /> 
               <span className="hidden lg:inline">Login</span>
             </button>

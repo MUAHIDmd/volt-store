@@ -40,10 +40,10 @@ const Footer = () => {
     ];
 
     const socialIcons = [
-        { icon: FacebookIcon, link: "https://www.facebook.com" },
-        { icon: InstagramIcon, link: "https://www.instagram.com" },
-        { icon: TwitterIcon, link: "https://twitter.com" },
-        { icon: LinkedinIcon, link: "https://www.linkedin.com" },
+        { icon: FacebookIcon, link: "" },
+        { icon: InstagramIcon, link: "" },
+        { icon: TwitterIcon, link: "" },
+        { icon: LinkedinIcon, link: "" },
     ]
 
     return (
@@ -79,10 +79,21 @@ const Footer = () => {
                         ))}
                     </div>
                 </div>
-                <p className="py-4 text-sm text-slate-500">
-                    Copyright 2025 © VoltStore All Right Reserved.
-                </p>
+                
             </div>
+            <div className="flex items-center justify-between py-4 text-sm text-slate-500 border-t border-slate-200">
+            <p>Copyright 2025 © VoltStore All Rights Reserved.</p>
+
+             <a
+                   href="https://avrx-tech-main.vercel.app/" // <-- Apni actual website ka link yahan do
+                   target="_blank"
+                  rel="noopener noreferrer"
+                   className="text-slate-600 hover:text-blue-600 transition"
+                    >
+                       Created by <span className="font-semibold">Avrx Tech</span>
+                        </a>
+                    </div>
+
         </footer>
     );
 };
