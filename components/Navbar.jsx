@@ -11,7 +11,7 @@ const Navbar = () => {
           
           {/* Left (Logo only) */}
           <Link href="/" className="text-2xl font-bold">
-            Volt <span className="text-yellow-400">Store</span>
+            VOLT <span className="text-yellow-400">STORE</span>
           </Link>
 
           {/* Center Search (desktop only) */}
